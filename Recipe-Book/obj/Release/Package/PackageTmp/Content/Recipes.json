@@ -1,0 +1,203 @@
+[
+    {
+      "name": "Banana Bread",
+      "Ingredients": [
+        "1/2 cup butter",
+        "3 very ripe bananas",
+        "1/4 cup brown sugar",
+        "1/4 cup white sugar",
+        "1 egg",
+        "1 tablespoon vanilla extract",
+        "1 1/2 cups all-purpose flour",
+        "1 1/2 teaspoons baking soda",
+        "1 teaspoon ground cinnamon (optional)",
+        "1/2 teaspoon ground nutmeg (optional)"
+      ],
+      "Directions": {
+        "Prep": "15m",
+        "Cook": "50m",
+        "Ready In": "1h 20m",
+
+        "Step 1": "Melt butter in a small saucepan over medium heat; bring to a low simmer and cook, stirring frequently, until butter is browned, fragrant, and foamy, with brown bits in it, 5 to 10 minutes. Set aside to cool to room temperature, about 15 minutes. Measure 1/3 cup of browned butter; reserve remaining browned butter for another use.",
+        "Step 2": "Preheat oven to 350 degrees F (175 degrees C). Grease a loaf pan.",
+        "Step 3": "Mash bananas in a large bowl; stir in brown sugar, white sugar, egg, vanilla extract, and 1/3 cup brown butter.",
+        "Step 4": "Whisk flour, baking soda, cinnamon, and nutmeg together in a bowl. Fold flour mixture into banana mixture just until all ingredients are moistened; pour into prepared pan.",
+        "Step 5": "Bake in the preheated oven until a toothpick inserted near the center comes out clean, about 45 minutes."
+
+      },
+      "Nutrition": {
+        "Servings Per Recipe": "6",
+        "Amount Per Serving calories": "389",
+        "Total Fat": "16.8g",
+        "Saturated Fat": "10g",
+        "Cholesterol": "72mg",
+        "Sodium": "439mg",
+        "Potassium": "278mg",
+        "Total Carbohydrates": "55.4g",
+        "Dietary Fiber": "2.6g",
+        "Protein": "5.1g",
+        "Sugars": "25g",
+        "Vitamin A": "552IU",
+        "Vitamin C": "5mg",
+        "Calcium": "29mg",
+        "Iron": "2mg",
+        "Thiamin": "0mg",
+        "Niacin": "3mg",
+        "Vitamin B6": "0mg",
+        "Magnesium": "26mg",
+        "Folate": "74mcg"
+      },
+
+      "Notes": "Don't skip the browning step - it really adds depth to the flavor. Chocolate chips, nuts, or whatever else you enjoy can be added in.",
+
+      "imgSrc": "images/Banana-Bread.jpg"
+    },
+
+    {
+      "name": "Butter Horn",
+      "Ingredients": [
+        "1 (0.6 ounce) cake compressed fresh yeast",
+        "2 teaspoons white sugar",
+        "1 1/2 cups milk",
+        "1 cup butter",
+        "1/2 cup white sugar",
+        "3 eggs",
+        "5 1/2 cups bread flour",
+        "1 teaspoon salt",
+        "1/2 cup butter, softened"
+      ],
+      "Directions": {
+        "Prep": "2h",
+        "Cook": "15m",
+        "Ready In": "10h 15m",
+
+        "Step 1": "Crumble the compressed yeast into a small bowl, and mix in 2 teaspoons of sugar. Set aside. In a small saucepan, heat milk until a skin forms on the top. Remove from heat, and set aside to cool slightly.",
+        "Step 2": "Place 1 cup of butter and remaining 1/2 cup of sugar into a large bowl. Pour the hot milk over them, and stir until butter is melted. Let the mixture cool to just above body temperature. Beat in the eggs, one at a time mixing well after each one, then stir in the yeast mixture. Add 3 cups of flour, and mix until well blended. Gradually mix in the remaining flour, mixing as well as you can. The dough will be sticky. Cover the bowl with a towel, and let rise in a warm place until doubled in size, about 1 hour.",
+        "Step 3": "After the dough has risen, punch down, cover, and refrigerate overnight.",
+        "Step 4": "Divide the dough into four pieces. Use one piece at a time, leaving the rest in the refrigerator. On a lightly floured surface, roll the piece of dough out into a 12 inch circle. Spread about 2 tablespoons of butter over the surface. Cut into 8 wedges, as you would a pizza. Roll each wedge starting at the wide end, and ending at the point. Place onto a lightly greased cookie sheet, and bend the ends so that they are crescent shaped. Cover with a towel, and let rise in a warm place until doubled. This will take about 2 hours because the dough is cold.",
+        "Step 5": "Preheat the oven to 375 degrees F (190 degrees C). Bake for 15 minutes in the preheated oven, or until golden."
+      },
+      "Nutrition": {
+        "Servings Per Recipe": "16",
+        "Amount Per Serving calories": "375",
+        "Total Fat": "19.4g",
+        "Saturated Fat": "12g",
+        "Cholesterol": "82mg",
+        "Sodium": "292mg",
+        "Potassium": "106mg",
+        "Total Carbohydrates": "42.3g",
+        "Dietary Fiber": "1.2g",
+        "Protein": "7.8g",
+        "Sugars": "8g",
+        "Vitamin A": "622IU",
+        "Vitamin C": "0mg",
+        "Calcium": "44mg",
+        "Iron": "2mg",
+        "Thiamin": "0mg",
+        "Niacin": "5mg",
+        "Vitamin B6": "0mg",
+        "Magnesium": "16mg",
+        "Folate": "101mcg"
+      },
+
+      "Notes": "No notes available.",
+
+      "imgSrc": "images/Butterhorns.jpg"
+    },
+
+    {
+      "name": "Pan Roasted Chicken Breasts",
+      "Ingredients": [
+        "4 boneless chicken breast halves with skin",
+        "salt and freshly ground black pepper to taste",
+        "1 tablespoon chopped fresh herbs (thyme, parsley, rosemary) (optional)",
+        "2 tablespoons olive oil",
+        "1/4 cup apple cider vinegar",
+        "4 tablespoons cold butter, cut into small pieces",
+        "1 tablespoon chicken broth (or water), if needed to thin sauce"
+      ],
+      "Directions": {
+        "Prep": "5m",
+        "Cook": "12m",
+        "Ready In": "17m",
+
+        "Step 1": "Season chicken on both sides with salt and pepper.",
+        "Step 2": "Heat olive oil in a heavy skillet over medium-high heat until it starts to shimmer. Place chicken breasts in skillet skin side down. Sprinkle with fresh herbs. Do not disturb the breasts until the skin side sears, 5 or 6 minutes. Turn chicken.",
+        "Step 3": "Cook until internal temperature reaches 150 degrees F, about 5 minutes. Add vinegar and butter to pan with chicken. Shake pan gently until butter melts and internal temperature of chicken reaches 160 to 165 degrees F, 2 to 3 minutes more. Add a splash of chicken broth or water if sauce needs to be thinned."
+      },
+      "Nutrition": {
+        "Servings Per Recipe": "4",
+        "Amount Per Serving calories": "462",
+        "Total Fat": "30g",
+        "Saturated Fat": "12g",
+        "Cholesterol": "157mg",
+        "Sodium": "244mg",
+        "Potassium": "387mg",
+        "Total Carbohydrates": "0.3g",
+        "Dietary Fiber": "0.1g",
+        "Protein": "45.1g",
+        "Sugars": "0g",
+        "Vitamin A": "524IU",
+        "Vitamin C": "1mg",
+        "Calcium": "28mg",
+        "Iron": "2mg",
+        "Thiamin": "0mg",
+        "Niacin": "28mg",
+        "Vitamin B6": "1mg",
+        "Magnesium": "43mg",
+        "Folate": "7mcg"
+      },
+
+      "Notes": "Aluminum foil helps keep food moist, ensures it cooks evenly, keeps leftovers fresh, and makes clean-up easy.",
+
+      "imgSrc": "images/Pan-Roasted-Chicken-Bread.jpg"
+    },
+
+  {
+    "name": "Meyer Lemon Avocado Toast",
+    "Ingredients": [
+      "2 slices whole grain bread",
+      "1/2 avocado",
+      "2 tablespoons chopped fresh cilantro, or more to taste",
+      "1 teaspoon Meyer lemon juice, or to taste",
+      "1/4 teaspoon Meyer lemon zest",
+      "1 pinch cayenne pepper",
+      "1 pinch fine sea salt",
+      "1/4 teaspoon chia seeds"
+    ],
+    "Directions": {
+      "Prep": "5m",
+      "Cook": "12m",
+      "Ready In": "17m",
+
+      "Step 1": "Toast bread slices to desired doneness, 3 to 5 minutes.",
+      "Step 2": "Mash avocado in a bowl; stir in cilantro, Meyer lemon juice, Meyer lemon zest, cayenne pepper, and sea salt. Spread avocado mixture onto toast and top with chia seeds."
+    },
+    "Nutrition": {
+      "Servings Per Recipe": "2",
+      "Amount Per Serving calories": "72",
+      "Total Fat": "1.2g",
+      "Saturated Fat": "0g",
+      "Cholesterol": "0mg",
+      "Sodium": "271mg",
+      "Potassium": "82mg",
+      "Total Carbohydrates": "11.3g",
+      "Dietary Fiber": "2.2g",
+      "Protein": "3.6g",
+      "Sugars": "2g",
+      "Vitamin A": "236IU",
+      "Vitamin C": "2mg",
+      "Calcium": "31mg",
+      "Iron": "3mg",
+      "Thiamin": "0mg",
+      "Niacin": "2mg",
+      "Vitamin B6": "0mg",
+      "Magnesium": "24mg",
+      "Folate": "22mcg"
+    },
+
+    "Notes": "No notes available.",
+
+    "imgSrc": "images/Meyer Lemon Avocado Toast.jpg"
+  }
+]

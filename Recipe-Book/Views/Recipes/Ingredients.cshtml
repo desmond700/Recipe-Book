@@ -1,0 +1,31 @@
+﻿@model Recipe_Book.Models.Recipe
+
+@{
+    ViewBag.Title = "Ingredients";
+}
+
+@section Scripts{
+    <script src="@Url.Content("~/Scripts/Ingredients.js")"></script>
+}
+
+    <div class="container">
+
+        <h1>Recipe: @Model.Name</h1>
+        <ol class="breadcrumb">
+            <li><a href="@Url.Action("Index","Recipes")">Recipes</a></li>
+            <li class="active">Ingredients</li>
+        </ol>
+        <div class="row panel panel-default">
+            <div class="col-sm-6">
+                <img id="recipeImgIn" class="center-block panel-body img-responsive" src="" />
+            </div>
+            <div class="col-sm-6 panel-body" id="notesDiv"></div>
+        </div>
+
+
+        <div class="row panel panel-default">
+            <div class="col-sm-4 panel-body" id="IngredientsDiv"></div>
+            <div class="col-sm-4 panel-body" id="DirectionsDiv"></div>
+            <div class="col-sm-4 panel-body" id="NutritionDiv"></div>
+        </div>
+    </div>

@@ -1,0 +1,51 @@
+﻿@model Recipe_Book.Models.Recipe
+@{
+    ViewBag.Title = "Home Page";
+    ViewBag.HomeActive = "active";
+}
+
+<div class="container-fluid homeNavDiv">
+    <div class="container text-white">
+        <div class="col-lg-6  col-md-offset-3" style="padding:5% 0 5% 0">
+            <h1>RECIPE-BOOK.COM</h1>
+            <p class="lead"><strong><em>recipe-book.com</em></strong> is a Website dedicated to providing free access to a wide variety of recipes.</p>
+            <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="panel-heading">
+        <h1>Recent Recipes</h1>
+    </div>
+    <div class="row panel panel-default">
+        <div class="col-xs-6 col-md-3 panel-body">
+            <a href="@Url.Action("Ingredients","Recipes", new { Recipe = "Banana Bread"})" class="thumbnail IngredientsUrl" >
+                <img class="img-thumbnail" src="Content/images/Banana-Bread.jpg" alt="...">
+                <p>Banana Bread</p>
+
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-3 panel-body">
+            <a href="@Url.Action("Ingredients","Recipes", new { Recipe = "Butter Horn"})" class="thumbnail IngredientsUrl">
+                <img class="img-thumbnail" src="Content/images/Butterhorns.jpg" alt="...">
+                <p>Butter Horn</p>
+                <div class="caption">
+                </div>
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-3 panel-body">
+            <a href="@Url.Action("Ingredients","Recipes", new { Recipe = "Pan Roasted Chicken Breasts"})" class="thumbnail IngredientsUrl">
+                <img class="img-thumbnail" src="Content/images/Pan-Roasted-Chicken-Breasts.jpg" alt="...">
+                <p>Pan Roasted Chicken Breasts</p>
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-3 panel-body">
+            <a href="@Url.Action("Ingredients","Recipes", new { Recipe = "Meyer Lemon Avocado Toast"})" class="thumbnail IngredientsUrl">
+                <img class="img-thumbnail" src="Content/images/Meyer Lemon Avocado Toast.jpg" alt="..." >
+                <p>Meyer Lemon Avocado Toast</p>
+            </a>
+        </div>
+    </div>
+    
+</div>

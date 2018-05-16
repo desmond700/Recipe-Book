@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Recipe-Book20180403105445" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Desmond\\OneDrive\ -\ triOS\ College\\AWT\\Recipe-Book\\Recipe-Book\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Desmond\\OneDrive\ -\ triOS\ College\\AWT\\Recipe-Book\\Recipe-Book\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>

@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Contact";
+    ViewBag.ContactActive = "active";
+}
+
+<div class="container">
+    <div class="page-header"><h2>Contact Us</h2></div>
+    <div class="row panel panel-default">
+        <div class="col-xs-4 panel-body">
+            <address>
+                <strong>Recipe-Book Inc.</strong><br>
+                55 City Centre Dr.<br>
+                Mississauga, ON 0987<br>
+                <abbr title="Phone">P:</abbr> (123) 456-7890
+            </address>
+
+            <address>
+                <strong>Full Name</strong><br>
+                <a href="mailto:#">exam.ple@example.com</a>
+            </address>
+        </div>
+        <div class="col-xs-7 panel-body">
+            <p id="demo">Click the button to get your position.</p>
+
+            <button onclick="getLocation()">Show Map</button>
+
+            <div id="mapholder"></div>
+        </div>
+    </div>
+    <div class="page-header"><h3><strong>Get in touch</strong></h3></div>
+    <div class="row panel panel-default">
+        <div class="col-xs-12 col-md-7 panel-body">
+            <form method="post" action="processRequest.cshtml">
+                <div class="form-group">
+                    <label for="exampleInputName">customerName</label>
+                    <input type="text" class="form-control" name="Name" id="exampleInputEmail1" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" name="customerEmail" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Subject</label>
+                    <input type="text" class="form-control" name="customerSubject" id="exampleInputPassword1" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Message</label>
+                    <textarea class="form-control" name="customerRequest" id="textArea" rows="8"></textarea>
+                </div>
+                <input type="submit" name="submit" class="btn btn-primary" value="submit" />
+            </form>
+        </div>
+    </div>
+    <div class="page-header"></div>
+</div>
+
+<div class="panel-body"></div>
+

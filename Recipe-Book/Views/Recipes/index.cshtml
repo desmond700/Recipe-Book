@@ -1,0 +1,102 @@
+﻿@model Recipe_Book.Models.Recipe
+
+@{
+    ViewBag.Title = "Recipes";
+    ViewBag.RecipeActive = "active";
+
+}
+
+<div class="container panel-body">
+    <div class="row panel panel-default">
+        <div class="col-xs-4 text-center panel-body">
+            <img src="~/Content/images/Banana-Bread.jpg" class="center-block imgs-circle" />
+            <p>Bread Recipe</p>
+        </div>
+        <div class="col-xs-4 text-center panel-body">
+            <img src="~/Content/images/chicken_picture_2_167118.jpg" class="center-block imgs-circle" />
+            <p>Chicken Recipe</p>
+        </div>
+        <div class="col-xs-4 text-center panel-body">
+            <img src="~/Content/images/Meyer Lemon Avocado Toast.jpg" class="center-block imgs-circle" />
+            <p>Vegan Recipe</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="page-heading"></div>
+    <div class="row panel panel-default">
+
+        <div class="col-sm-6" id="recipeList">
+            <div class="panel panel-heading">
+                <h1 class="text-center">Recipe Names</h1>
+            </div>
+            <a href="javascript:void(0);" class="recipeItem list-group-item clearfix" id="Banana Bread">
+                <div class="pull-left">
+                    <h4>Banana Bread</h4>
+                </div>
+                <span class="pull-right">
+                    <img src="~/Content/images/Banana-Bread.jpg" class="img-responsive" style="max-height: 50px" />
+                </span>
+            </a>
+            <a href="javascript:void(0);" class="recipeItem list-group-item clearfix" id="Butter Horn">
+                <div class="pull-left">
+                    <h4>Butter Horns</h4>
+                </div>
+                <span class="pull-right">
+                    <img src="~/Content/images/Butterhorns.jpg" class="img-responsive" style="max-height: 50px" />
+                </span>
+                
+            </a>
+            <a href="javascript:void(0);" class="recipeItem list-group-item clearfix" id="Pan Roasted Chicken Breasts">
+                <div class="pull-left">
+                    <h4>Pan-Roasted Chicken Breasts</h4>
+                </div>
+                <span class="pull-right">
+                    <img src="~/Content/images/Pan-Roasted-Chicken-Breasts.jpg" class="img-responsive" style="max-height: 50px" />
+                </span>
+            </a>
+            <a href="javascript:void(0);" class="recipeItem list-group-item clearfix" id="Meyer Lemon Avocado Toast">
+                <div class="pull-left">
+                    <h4>Meyer Lemon Avocado Toast</h4>
+                </div>
+                <span class="pull-right">
+                    <img src="~/Content/images/Meyer Lemon Avocado Toast.jpg" class="img-responsive" style="max-height: 50px" />
+                </span>
+            </a>
+        </div>
+        <div class="col-sm-6" id="dispRecipe">
+
+            <div class="panel panel-heading">
+                <h1 class="text-center">Descriptions</h1>
+            </div>
+            <div style="" id="divPadding">
+                <div style="">
+                    <h2 class="text-center">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Click here to view Recipe on full page!" class="IngredientsUrl" id="recipeHeader"></a>
+                    </h2>
+
+                    <img id="recipeImg" class="center-block panel-body img-responsive" src="" />
+                    <!---->
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'Ingredients')">Ingredients</button>
+                        <button class="tablinks" onclick="openCity(event, 'Directions')">Directions</button>
+                        <button class="tablinks" onclick="openCity(event, 'Nutrition')">Nutrition</button>
+                        <button class="tablinks" onclick="openCity(event, 'notes')">Notes</button>
+                    </div>
+
+                    <!-- Tab content -->
+                    <div id="Ingredients" class="tabcontent"></div>
+                    <div id="Directions" class="tabcontent"></div>
+                    <div id="Nutrition" class="tabcontent"></div>
+                    <div id="notes" class="tabcontent"></div>
+                    <!---->
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="page-header"></div>
+</div>

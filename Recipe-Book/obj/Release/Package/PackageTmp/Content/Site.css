@@ -1,0 +1,117 @@
+﻿body {
+    padding-top: 50px;
+    /*padding-bottom: 20px;*/
+}
+
+/* Set padding to keep content from hitting the edges */
+/*.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+
+.homeNavDiv{
+	padding:0; 
+    background-image: url('images/1200px-Good_Food_Display_-_NCI_Visuals_Online1.jpg');
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+} 
+
+.imgs-circle {
+    width: 90px;
+	height: 90px;
+	display: block;
+	-webkit-border-radius: 100px;
+	/*-moz-border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	-webkit-border-bottom-right-radius: 100px;*/
+	-moz-border-radius: 100px;
+    border-radius: 100px;
+}
+
+#recipeList{
+    margin-right: -9px;
+}
+
+#dispRecipe {
+    padding: 1px 0 0 0;
+    margin-left: -9px;
+}
+
+#divPadding {
+    padding: 5px 5px 5px 5px;
+}
+
+#divPadding div > h2 {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+#recipeList a.recipeItem {
+    text-transform: capitalize;
+    color: #333;
+    transition: background-color .2s, color .2s;
+}
+
+a.recipeItem:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+#recipeList a.recipeItem:active {
+    background-color: #333;
+    color: #fff;
+}
+
+ul.nav navbar-nav ul.nav navbar-nav > li a{
+    background-color: #333;
+	color: #fff;
+}
+
+.elegant-color{
+	background-color: #2E2E2E;
+}
+
+.elegant-color-dark{
+	background-color: #212121;
+}
+
+.text-white{
+	color: #fff;
+}
